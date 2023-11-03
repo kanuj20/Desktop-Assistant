@@ -76,7 +76,7 @@ if __name__ == '__main__':
         print("Listening...")
         query = takeCommand()
         # todo: Add more sites
-        sites = [["youtube", "https://www.youtube.com"], ["wikipedia", "https://www.wikipedia.com"], ["google", "https://www.google.com"],]
+        sites = [["youtube", "https://www.youtube.com"], ["wikipedia", "https://www.wikipedia.com"], ["google", "https://www.google.com"], ["linkedin", "https://www.linkedin.com"], ["github", "https://www.github.com"], ["codeforces", "https://www.codeforces.com"], ]
         for site in sites:
             if f"Open {site[0]}".lower() in query.lower():
                 say(f"Opening {site[0]} sir...")
